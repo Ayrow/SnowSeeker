@@ -25,7 +25,7 @@ struct ContentView: View {
         NavigationStack {
             List(resorts) { resort in
                 NavigationLink {
-                    Text(resort.name)
+                    ResortView(resort: resort)
                 } label: {
                     Image(resort.country)
                         .resizable()
