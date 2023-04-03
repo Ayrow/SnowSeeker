@@ -17,6 +17,7 @@
 		94FBE5F429DAC2AF00FD5E15 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FBE5F329DAC2AF00FD5E15 /* WelcomeView.swift */; };
 		94FBE5F629DAC8C000FD5E15 /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FBE5F529DAC8C000FD5E15 /* ResortView.swift */; };
 		94FBE5F829DACA0400FD5E15 /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FBE5F729DACA0400FD5E15 /* SkiDetailsView.swift */; };
+		94FBE5FA29DACB0100FD5E15 /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FBE5F929DACB0100FD5E15 /* ResortDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		94FBE5F329DAC2AF00FD5E15 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		94FBE5F529DAC8C000FD5E15 /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
 		94FBE5F729DACA0400FD5E15 /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
+		94FBE5F929DACB0100FD5E15 /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +67,10 @@
 			children = (
 				9424070229D85DA300F58FA6 /* SnowSeekerApp.swift */,
 				9424070429D85DA300F58FA6 /* ContentView.swift */,
-				94FBE5F729DACA0400FD5E15 /* SkiDetailsView.swift */,
 				94FBE5F529DAC8C000FD5E15 /* ResortView.swift */,
 				94FBE5F329DAC2AF00FD5E15 /* WelcomeView.swift */,
+				94FBE5F729DACA0400FD5E15 /* SkiDetailsView.swift */,
+				94FBE5F929DACB0100FD5E15 /* ResortDetailsView.swift */,
 				9424070629D85DA400F58FA6 /* Assets.xcassets */,
 				94FBE5EF29DAB6D600FD5E15 /* Resort.swift */,
 				94FBE5F129DAB7EC00FD5E15 /* Bundle-Decodable.swift */,
@@ -158,6 +161,7 @@
 			files = (
 				94FBE5F429DAC2AF00FD5E15 /* WelcomeView.swift in Sources */,
 				94FBE5F829DACA0400FD5E15 /* SkiDetailsView.swift in Sources */,
+				94FBE5FA29DACB0100FD5E15 /* ResortDetailsView.swift in Sources */,
 				9424070529D85DA300F58FA6 /* ContentView.swift in Sources */,
 				94FBE5F029DAB6D600FD5E15 /* Resort.swift in Sources */,
 				94FBE5F629DAC8C000FD5E15 /* ResortView.swift in Sources */,
