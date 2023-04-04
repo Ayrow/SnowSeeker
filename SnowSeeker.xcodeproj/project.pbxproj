@@ -67,14 +67,14 @@
 			children = (
 				9424070229D85DA300F58FA6 /* SnowSeekerApp.swift */,
 				9424070429D85DA300F58FA6 /* ContentView.swift */,
-				94FBE5F529DAC8C000FD5E15 /* ResortView.swift */,
 				94FBE5F329DAC2AF00FD5E15 /* WelcomeView.swift */,
-				94FBE5F729DACA0400FD5E15 /* SkiDetailsView.swift */,
-				94FBE5F929DACB0100FD5E15 /* ResortDetailsView.swift */,
-				9424070629D85DA400F58FA6 /* Assets.xcassets */,
 				94FBE5EF29DAB6D600FD5E15 /* Resort.swift */,
 				94FBE5F129DAB7EC00FD5E15 /* Bundle-Decodable.swift */,
+				94FBE5F529DAC8C000FD5E15 /* ResortView.swift */,
+				94FBE5F729DACA0400FD5E15 /* SkiDetailsView.swift */,
+				94FBE5F929DACB0100FD5E15 /* ResortDetailsView.swift */,
 				94FBE5ED29DAB51700FD5E15 /* resorts.json */,
+				9424070629D85DA400F58FA6 /* Assets.xcassets */,
 				9424070829D85DA400F58FA6 /* Preview Content */,
 			);
 			path = SnowSeeker;

@@ -30,6 +30,7 @@ struct ResortView: View {
                     }
                     .padding(.vertical)
                     .background(Color.primary.opacity(0.1))
+                    .dynamicTypeSize(...DynamicTypeSize.xxLarge)
                     
                     Group {
                         
