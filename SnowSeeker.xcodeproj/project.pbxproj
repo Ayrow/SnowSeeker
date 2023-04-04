@@ -11,6 +11,7 @@
 		9424070529D85DA300F58FA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9424070429D85DA300F58FA6 /* ContentView.swift */; };
 		9424070729D85DA400F58FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9424070629D85DA400F58FA6 /* Assets.xcassets */; };
 		9424070A29D85DA400F58FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9424070929D85DA400F58FA6 /* Preview Assets.xcassets */; };
+		94323B0D29DC231B00197EAF /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94323B0C29DC231B00197EAF /* Facility.swift */; };
 		94FBE5EE29DAB51700FD5E15 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = 94FBE5ED29DAB51700FD5E15 /* resorts.json */; };
 		94FBE5F029DAB6D600FD5E15 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FBE5EF29DAB6D600FD5E15 /* Resort.swift */; };
 		94FBE5F229DAB7EC00FD5E15 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FBE5F129DAB7EC00FD5E15 /* Bundle-Decodable.swift */; };
@@ -26,6 +27,7 @@
 		9424070429D85DA300F58FA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9424070629D85DA400F58FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9424070929D85DA400F58FA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94323B0C29DC231B00197EAF /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
 		94FBE5ED29DAB51700FD5E15 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 		94FBE5EF29DAB6D600FD5E15 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
 		94FBE5F129DAB7EC00FD5E15 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				94FBE5EF29DAB6D600FD5E15 /* Resort.swift */,
 				94FBE5F129DAB7EC00FD5E15 /* Bundle-Decodable.swift */,
 				94FBE5F529DAC8C000FD5E15 /* ResortView.swift */,
+				94323B0C29DC231B00197EAF /* Facility.swift */,
 				94FBE5F729DACA0400FD5E15 /* SkiDetailsView.swift */,
 				94FBE5F929DACB0100FD5E15 /* ResortDetailsView.swift */,
 				94FBE5ED29DAB51700FD5E15 /* resorts.json */,
@@ -162,6 +165,7 @@
 				94FBE5F429DAC2AF00FD5E15 /* WelcomeView.swift in Sources */,
 				94FBE5F829DACA0400FD5E15 /* SkiDetailsView.swift in Sources */,
 				94FBE5FA29DACB0100FD5E15 /* ResortDetailsView.swift in Sources */,
+				94323B0D29DC231B00197EAF /* Facility.swift in Sources */,
 				9424070529D85DA300F58FA6 /* ContentView.swift in Sources */,
 				94FBE5F029DAB6D600FD5E15 /* Resort.swift in Sources */,
 				94FBE5F629DAC8C000FD5E15 /* ResortView.swift in Sources */,
