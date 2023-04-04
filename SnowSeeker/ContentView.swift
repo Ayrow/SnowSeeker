@@ -19,13 +19,12 @@ extension View {
 
 struct ContentView: View {
     @StateObject var favorites = Favorites()
-    let resorts: [Resort] = Bundle.main.decode("resorts.json")
-    @State private var searchText = ""
+    @StateObject var viewModel = ViewModel()
     
     var body: some View {
         
-        NavigationStack {
-            List(filteredResorts) { resort in
+        NavigationView {
+            List(viewModel.sortedAndFilteredResults) { resort in
                 NavigationLink {
                     ResortView(resort: resort)
                 } label: {
@@ -57,21 +56,34 @@ struct ContentView: View {
                     
                 }
             }
+            .animation(Animation.default, value: viewModel.sortedAndFilteredResults)
             .navigationTitle("Resorts")
-            .searchable(text: $searchText, prompt: "Search for a resort")
+            .searchable(text: $viewModel.searchText, prompt: "Search for a resort")
+            .toolbar {
+                Button("Sort"){
+                    viewModel.showSortingDialog.toggle()
+                }
+            }
+            .confirmationDialog("Sort resorts", isPresented: $viewModel.showSortingDialog) {
+                Button("By name"){
+                    viewModel.sorting = .byName
+                }
+                Button("By country"){
+                    viewModel.sorting = .byCountry
+                }
+                Button("Default"){
+                    viewModel.sorting = nil
+                }
+            } message: {
+                Text("Sort the resorts")
+            }
             
             WelcomeView()
         }
         .environmentObject(favorites)
     }
     
-    var filteredResorts: [Resort] {
-        if searchText.isEmpty {
-            return resorts
-        } else {
-            return resorts.filter { $0.name.localizedCaseInsensitiveContains(searchText)}
-        }
-    }
+    
     
 }
     
