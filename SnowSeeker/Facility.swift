@@ -12,7 +12,7 @@ struct Facility: Identifiable {
     var name: String
     
     private let icons = [
-        "Accomodation" : "house",
+        "Accommodation" : "house",
         "Beginners" : "1.circle",
         "Cross-country" : "map",
         "Eco-friendly" : "leaf.arrow.circlepath",
